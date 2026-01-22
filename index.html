@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection - AI-Powered Transaction Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Credit Card Fraud Detection</h1>
+            <p>AI-Powered Transaction Analysis</p>
+        </div>
+
+        <div class="card">
+            <div class="section">
+                <h3>Quick Test Examples</h3>
+                <div class="btn-group">
+                    <button class="btn btn-fraud" onclick="loadFraud()">Load Fraud Example</button>
+                    <button class="btn btn-legit" onclick="loadLegit()">Load Legit Example</button>
+                    <button class="btn btn-clear" onclick="clearForm()">Clear Form</button>
+                </div>
+            </div>
+
+            <form id="form">
+                <div class="section">
+                    <h3>Transaction Details</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Time (seconds)</label>
+                            <input type="number" id="Time" value="0" step="1">
+                        </div>
+                        <div class="form-group">
+                            <label>Amount ($)</label>
+                            <input type="number" id="Amount" value="0" step="0.01">
+                        </div>
+                    </div>
+                </div>
+
+                <details>
+                    <summary>Advanced Features (V1-V28) - Optional</summary>
+                    <div class="form-grid" style="margin-top: 15px;">
+                        <div class="form-group"><label>V1</label><input type="number" id="V1" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V2</label><input type="number" id="V2" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V3</label><input type="number" id="V3" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V4</label><input type="number" id="V4" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V5</label><input type="number" id="V5" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V6</label><input type="number" id="V6" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V7</label><input type="number" id="V7" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V8</label><input type="number" id="V8" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V9</label><input type="number" id="V9" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V10</label><input type="number" id="V10" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V11</label><input type="number" id="V11" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V12</label><input type="number" id="V12" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V13</label><input type="number" id="V13" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V14</label><input type="number" id="V14" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V15</label><input type="number" id="V15" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V16</label><input type="number" id="V16" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V17</label><input type="number" id="V17" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V18</label><input type="number" id="V18" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V19</label><input type="number" id="V19" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V20</label><input type="number" id="V20" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V21</label><input type="number" id="V21" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V22</label><input type="number" id="V22" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V23</label><input type="number" id="V23" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V24</label><input type="number" id="V24" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V25</label><input type="number" id="V25" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V26</label><input type="number" id="V26" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V27</label><input type="number" id="V27" value="0" step="0.01"></div>
+                        <div class="form-group"><label>V28</label><input type="number" id="V28" value="0" step="0.01"></div>
+                    </div>
+                </details>
+
+                <button type="submit" class="analyze-btn" id="btn">Analyze Transaction</button>
+            </form>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Analyzing transaction...</p>
+            </div>
+
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
