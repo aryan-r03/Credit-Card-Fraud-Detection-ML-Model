@@ -74,7 +74,7 @@
         <br>92%+ accuracy
       </td>
       <td align="center" width="25%">
-        <img src="https://img.icons8.com/color/96/000000/health-graph.png" width="80" height="80" alt="Health"/>
+        <img src="https://img.icons8.com/color/100/mental-health.png" width="80" height="80" alt="Health"/>
         <br><b>Health Analysis</b>
         <br>6 AQI categories
         <br>EPA standards
@@ -390,7 +390,7 @@ Input (8 Parameters)
       <br>Core language
     </td>
     <td align="center" width="20%">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="60" height="60" alt="Flask"/>
+      <img src="https://img.icons8.com/nolan/96/flask.png" width="60" height="60" alt="Flask"/>
       <br><b>Flask 2.0+</b>
       <br>Web framework
     </td>
