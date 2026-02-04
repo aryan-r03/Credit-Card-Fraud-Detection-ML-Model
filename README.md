@@ -15,9 +15,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Content-Based+Filtering;TF-IDF+%26+Cosine+Similarity;Intelligent+Movie+Discovery;RESTful+API+Included" alt="Typing SVG" />
 </p>
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/movie-recommendation-system?style=social)](https://github.com/yourusername/movie-recommendation-system/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/movie-recommendation-system?style=social)](https://github.com/yourusername/movie-recommendation-system/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/movie-recommendation-system)](https://github.com/yourusername/movie-recommendation-system/issues)
+[![GitHub stars](https://img.shields.io/github/stars/aryan-r03/Credit-Card-Fraud-Detection-ML-Model?style=social)](https://github.com/aryan-r03/Credit-Card-Fraud-Detection-ML-Model/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/aryan-r03/Credit-Card-Fraud-Detection-ML-Model?style=social)](https://github.com/aryan-r03/Credit-Card-Fraud-Detection-ML-Model/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/aryan-r03/Credit-Card-Fraud-Detection-ML-Model)](https://github.com/aryan-r03/Credit-Card-Fraud-Detection-ML-Model/issues)
 
 </div>
 
@@ -112,7 +112,7 @@ Whether you're a movie enthusiast looking for your next watch or a developer wan
 ## 📁 Project Architecture
 
 ```
-🎬 movie-recommendation-system/
+🎬 Credit-Card-Fraud-Detection-ML-Model/
 │
 ├── 📂 backend/
 │   ├── 🐍 app.py                # Flask application & API routes
@@ -151,8 +151,8 @@ Whether you're a movie enthusiast looking for your next watch or a developer wan
 
 **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/movie-recommendation-system.git
-cd movie-recommendation-system
+git clone https://github.com/aryan-r03/Credit-Card-Fraud-Detection-ML-Model.git
+cd Credit-Card-Fraud-Detection-ML-Model
 ```
 
 **2️⃣ Create Virtual Environment**
@@ -518,7 +518,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Your Name
+Copyright (c) 2024 Aryan Ranjan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -531,7 +531,7 @@ in the Software without restriction...
 
 <div align="center">
 
-**Built with ❤️ using:**
+**Built using:**
 
 <p>
   <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask"/>
@@ -554,20 +554,20 @@ in the Software without restriction...
 <div align="center">
 
 <p>
-  <a href="https://github.com/yourusername/movie-recommendation-system/issues">
+  <a href="https://github.com/aryan-r03/Credit-Card-Fraud-Detection-ML-Model/issues">
     <img src="https://img.shields.io/badge/Issues-Report_Bug-red?style=for-the-badge&logo=github" alt="Issues"/>
   </a>
-  <a href="https://github.com/yourusername/movie-recommendation-system/discussions">
+  <a href="https://github.com/aryan-r03/Credit-Card-Fraud-Detection-ML-Model/discussions">
     <img src="https://img.shields.io/badge/Discussions-Ask_Question-blue?style=for-the-badge&logo=github" alt="Discussions"/>
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:aryanr.ranjan.com">
     <img src="https://img.shields.io/badge/Email-Contact-green?style=for-the-badge&logo=gmail" alt="Email"/>
   </a>
 </p>
 
 ### 🌟 Star this repo if you find it helpful!
 
-**Made with 🎬 and ☕ by [Your Name]**
+**Made with 🎬 and ☕ by Aryan Ranjan**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer"/>
 
